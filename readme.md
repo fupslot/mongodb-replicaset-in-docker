@@ -15,3 +15,8 @@ docker build -t mongodb-rs:latest ./
 ```bash
 docker run --init -d -p 27001:27001 -p 27002:27002 -p 27003:27003 --name mongo -e "REPLICA_SET_NAME=rs0" mongodb-rs
 ```
+
+
+## Original Repo
+
+- [node-casbin/mongoose-adapter](https://github.com/node-casbin/mongoose-adapter/tree/master/.github)
